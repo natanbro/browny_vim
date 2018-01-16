@@ -14,7 +14,7 @@ endif
 
 let colors_name = "autumn"
 
-hi Normal       guifg=#904838 guibg=#fff4e8
+hi Normal       guifg=#904838 guibg=#ffffe8
 
 " Search
 hi IncSearch    gui=UNDERLINE guifg=#404040 guibg=#e0e040
@@ -72,4 +72,5 @@ hi Underlined   gui=UNDERLINE guifg=blue guibg=NONE
 
 " Restructuredtext
 :hi RstStrongEmphasis guibg=#fff4e8 guifg=#904838 gui=BOLD
-
+:hi RstEmphasis guibg=#fff4e8 guifg=#6f382a gui=italic
+:hi RstSections guifg=#004f00 gui=bold gui=italic
