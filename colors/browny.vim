@@ -77,6 +77,19 @@ hi Underlined   gui=UNDERLINE guifg=blue guibg=NONE
 :hi RstSections guifg=#004f00 gui=bold gui=italic
 :hi rstBibliographicField guifg= #009900 gui=none
 :hi rstCitation guifg= #007000 gui=none
+:hi rstCitationReference guifg= #007000 gui=none
 
+" Markdown
+:hi Title guifg=#007000 gui=bold gui=italic
+:hi Special  guifg=#004f00 gui=bold gui=italic
+:hi Delimiter guifg=#8040f0 gui=bold gui=italic
 
+:hi markdownH1 guifg=#004f00 gui=bold gui=italic
+" :hi markdownH1Delimiter guifg=#8040f0 gui=bold gui=italic
+" "
+" :hi markdownH2 guifg=#004f00 gui=bold gui=italic
+" :hi markdownH2Delimiter guifg=#8040f0 gui=bold gui=italic
+"
+:hi markdownBold guibg=#fff4e8 guifg=#904838 gui=BOLD 
+:hi markdownItalic guibg=#fff4e8 guifg=#904838 gui=italic
 
