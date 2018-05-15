@@ -92,4 +92,4 @@ hi Underlined   gui=UNDERLINE guifg=blue guibg=NONE
 "
 :hi markdownBold guibg=#fff4e8 guifg=#904838 gui=BOLD 
 :hi markdownItalic guibg=#fff4e8 guifg=#904838 gui=italic
-
+:hi markdownCode guifg=#0040ff gui=italic
