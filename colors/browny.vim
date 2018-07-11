@@ -14,6 +14,10 @@ endif
 
 let colors_name = "browny"
 
+" plantuml extensions
+syn match plantumlSrcComponent  /^\w\+\ze-/
+syn match plantumlDstComponent  /^\w\+-+>\s*\zs\w*\ze:/
+
 " hi Normal       guifg=#904838 guibg=#ffffe8
 hi Normal       guifg=#904838 guibg=#ffffff
 
@@ -93,3 +97,15 @@ hi Underlined   gui=UNDERLINE guifg=blue guibg=NONE
 :hi markdownBold guibg=#fff4e8 guifg=#904838 gui=BOLD 
 :hi markdownItalic guibg=#fff4e8 guifg=#904838 gui=italic
 :hi markdownCode guifg=#0040ff gui=italic
+
+" Plantuml
+"
+hi plantumlhorizontalarrow gui=bold guifg=#FF8c00
+hi plantumlDirectedOrVerticalArrowLR gui=bold guifg=#FF4500
+hi plantumlkeyword gui=NONE guifg=#208040 guibg=#c0f0d0
+hi plantumlcolonline gui=NONE guifg=#000000
+hi plantumlSrcComponent gui=Bold
+hi plantumlDstComponent gui=NONE guifg=#ff4500
+
+
+
