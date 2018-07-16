@@ -100,12 +100,12 @@ hi Underlined   gui=UNDERLINE guifg=blue guibg=NONE
 
 " Plantuml
 "
-hi plantumlhorizontalarrow gui=bold guifg=#FF8c00
 hi plantumlDirectedOrVerticalArrowLR gui=bold guifg=#FF4500
 hi plantumlkeyword gui=NONE guifg=#208040 guibg=#c0f0d0
 hi plantumlcolonline gui=NONE guifg=#000000
 hi plantumlSrcComponent gui=Bold
-hi plantumlDstComponent gui=NONE guifg=#ff4500
+hi plantumlDstComponent gui=NONE guifg=#ff203f
+hi plantumlhorizontalarrow gui=bold guifg=#FF8c00
 
 
 
