@@ -85,7 +85,6 @@ hi Underlined   gui=UNDERLINE guifg=blue guibg=NONE
 :hi rst_Directive_code guifg=#3ba1c9 guibg=#fde4d5 gui=bold
 :hi rstExplicitMarkup  guifg=#ff0000 guibg=#fde4d5 gui=bold
 
-
 " Markdown
 :hi Title guifg=#007000 gui=bold gui=italic
 :hi Special  guifg=#004f00 gui=bold gui=italic
