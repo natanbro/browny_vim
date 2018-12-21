@@ -14,6 +14,10 @@ endif
 
 let colors_name = "browny"
 
+" plantuml extensions
+syn match plantumlSrcComponent  /^\w\+\ze-/
+syn match plantumlDstComponent  /^\w\+-+>\s*\zs\w*\ze:/
+
 " hi Normal       guifg=#904838 guibg=#ffffe8
 hi Normal       guifg=#904838 guibg=#ffffff
 
@@ -77,6 +81,34 @@ hi Underlined   gui=UNDERLINE guifg=blue guibg=NONE
 :hi RstSections guifg=#004f00 gui=bold gui=italic
 :hi rstBibliographicField guifg= #009900 gui=none
 :hi rstCitation guifg= #007000 gui=none
+:hi rstCitationReference guifg=#007000 gui=none
+:hi rst_Directive_code guifg=#3ba1c9 guibg=#fde4d5 gui=bold
+:hi rstExplicitMarkup  guifg=#ff0000 guibg=#fde4d5 gui=bold
+
+
+" Markdown
+:hi Title guifg=#007000 gui=bold gui=italic
+:hi Special  guifg=#004f00 gui=bold gui=italic
+:hi Delimiter guifg=#8040f0 gui=bold gui=italic
+
+:hi markdownH1 guifg=#004f00 gui=bold gui=italic
+" :hi markdownH1Delimiter guifg=#8040f0 gui=bold gui=italic
+" "
+" :hi markdownH2 guifg=#004f00 gui=bold gui=italic
+" :hi markdownH2Delimiter guifg=#8040f0 gui=bold gui=italic
+"
+:hi markdownBold guibg=#fff4e8 guifg=#904838 gui=BOLD 
+:hi markdownItalic guibg=#fff4e8 guifg=#904838 gui=italic
+:hi markdownCode guifg=#0040ff gui=italic
+
+" Plantuml
+"
+hi plantumlDirectedOrVerticalArrowLR gui=bold guifg=#FF4500
+hi plantumlkeyword gui=NONE guifg=#208040 guibg=#c0f0d0
+hi plantumlcolonline gui=NONE guifg=#000000
+hi plantumlSrcComponent gui=Bold
+hi plantumlDstComponent gui=NONE guifg=#ff203f
+hi plantumlhorizontalarrow gui=bold guifg=#FF8c00
 
 
 
