@@ -19,7 +19,7 @@ syn match plantumlSrcComponent  /^\w\+\ze-/
 syn match plantumlDstComponent  /^\w\+-+>\s*\zs\w*\ze:/
 
 " hi Normal       guifg=#904838 guibg=#ffffe8
-hi Normal       guifg=#904838 guibg=#ffffff
+hi Normal       guifg=#904838 guibg=#ffffff ctermfg=brown ctermbg=white
 
 " Search
 hi IncSearch    gui=UNDERLINE guifg=#404040 guibg=#e0e040
@@ -96,7 +96,7 @@ hi Underlined   gui=UNDERLINE guifg=blue guibg=NONE
 " :hi markdownH2 guifg=#004f00 gui=bold gui=italic
 " :hi markdownH2Delimiter guifg=#8040f0 gui=bold gui=italic
 "
-:hi markdownBold guibg=#fff4e8 guifg=#904838 gui=BOLD 
+:hi markdownBold guibg=#fff4e8 guifg=#904838 gui=BOLD
 :hi markdownItalic guibg=#fff4e8 guifg=#904838 gui=italic
 :hi markdownCode guifg=#0040ff gui=italic
 
