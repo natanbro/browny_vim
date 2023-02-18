@@ -5,3 +5,6 @@ A brown based color scheme for vim with support for rst
 This color scheme is based on:
 https://github.com/flazz/vim-colorschemes.git, rainbow_autum.vim
 
+## License
+Same as rain_autum.vim
+
